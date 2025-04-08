@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: harness
-        image: 207567757006.dkr.ecr.us-west-1.amazonaws.com/venky/harness:latest
+        image: shaikmustafa/netflix
         imagePullPolicy: Always  # Always pull the latest image
         ports:
         - containerPort: 80  # Adjust the container port if necessary
