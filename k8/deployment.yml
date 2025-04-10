@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: harness
-        image: nginx
+        image: httpd
         imagePullPolicy: Always  # Always pull the latest image
         ports:
         - containerPort: 80  # Adjust the container port if necessary
